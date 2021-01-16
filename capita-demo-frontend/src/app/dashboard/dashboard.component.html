@@ -1,0 +1,12 @@
+<div>
+    <div class="row grid-header">
+        <span class="md-col-3 padding-side-5 div-inline">Idea ID</span>
+        <span class="md-col-3 padding-side-5 div-inline">Idea Name</span>
+        <span class="md-col-6 padding-side-5 div-inline">Desc</span>
+    </div>
+    <div class="row grid-row" *ngFor="let idea of ideaData | async">
+        <div class="md-col-3 padding-side-5 div-inline">{{idea.ideaId}}</div>
+        <div class="md-col-3 padding-side-5 div-inline">{{idea.ideaName}}</div>
+        <div class="md-col-6 padding-side-5 div-inline">{{idea.desc}}</div>
+    </div>
+</div>

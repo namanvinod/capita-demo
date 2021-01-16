@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.padding-side-50 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.padding-side-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.padding-vertical-10 {
+    padding: 10px 0px;
+}
+
+.div-inline {
+    display: inline-block;
+}

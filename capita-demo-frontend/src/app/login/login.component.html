@@ -1,0 +1,24 @@
+<div class="padding-top-30 padding-side-50">
+    <div class="row">
+        <H3>Login Here</H3>
+    </div>
+    <div class="row padding-vertical-10">
+        <div class="md-col-4">User Name</div>
+        <div class="md-col-8">
+            <input type="text" [(ngModel)]="userName">
+        </div>
+    </div>
+    <div class="row padding-vertical-10">
+        <div class="md-col-4">
+            Password
+        </div>
+        <div class="md-col-8">
+            <input type="password" [(ngModel)]="password">
+        </div>
+    </div>
+    <div class="row padding-vertical-10">
+        <button type="submit" (click)="login()">
+            Login
+        </button>
+    </div>
+</div>
